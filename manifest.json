@@ -1,0 +1,25 @@
+{
+    "name": "Alberto",
+    "description": "He's not Roberto.",
+    "manifest_version": 3,
+    "version": "0.1",
+    "icons": {
+        "16": "./icon.png",
+        "32": "./icon.png",
+        "48": "./icon.png",
+        "128": "./icon.png"
+    },
+    "background": {
+        "service_worker": "./service_worker.js"
+    },
+    "action": {
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
